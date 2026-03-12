@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+        }
+
+        header{
+            background:#2c3e50;
+            color:white;
+            padding:15px 50px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            text-decoration:underline;
+        }
+
+        .hero{
+            height:90vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+            background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+            url("https://picsum.photos/1600/900");
+            background-size:cover;
+            color:white;
+        }
+
+        .hero h1{
+            font-size:50px;
+            margin-bottom:15px;
+        }
+
+        .hero p{
+            font-size:20px;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            padding:12px 25px;
+            background:#3498db;
+            border:none;
+            color:white;
+            font-size:16px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .btn:hover{
+            background:#2980b9;
+        }
+
+        .section{
+            padding:60px 80px;
+            text-align:center;
+        }
+
+        .cards{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            margin-top:30px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            width:250px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        footer{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>ISF</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Selamat Datang</h1>
+    <p>Website contoh landing page menggunakan HTML dan CSS</p>
+    <button class="btn">Pelajari Lebih Lanjut</button>
+</section>
+
+<section class="section">
+    <h2>Fitur Kami</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Design Modern</h3>
+            <p>Tampilan website yang menarik dan responsif.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mudah Digunakan</h3>
+            <p>Interface yang sederhana dan user friendly.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cepat</h3>
+            <p>Website dioptimalkan untuk performa terbaik.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 ISF | Dibuat dengan HTML & CSS</p>
+</footer>
+
+</body>
+</html>
